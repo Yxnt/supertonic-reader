@@ -44,9 +44,6 @@ desktop.ini
 # Runtime model data downloaded at first run
 supertonic-reader-data/
 
-# External DLLs placed locally for bundling, not committed
-src-tauri/binaries/*.dll
-
 # Environment files
 .env
 .env.*
