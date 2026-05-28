@@ -1,0 +1,162 @@
+{
+  "languageName": "Bahasa Melayu",
+  "common": {
+    "save": "Simpan",
+    "saving": "Menyimpan…",
+    "back": "Kembali",
+    "retry": "Cuba lagi"
+  },
+  "app": {
+    "title": "supertonic-reader"
+  },
+  "languageSwitcher": {
+    "label": "Bahasa"
+  },
+  "setup": {
+    "title": "Persediaan kali pertama",
+    "quality": {
+      "label": "Kualiti suara",
+      "hint": "Julat 2 – 16 (lalai 8). Nilai lebih tinggi = kualiti lebih baik tetapi sintesis lebih perlahan"
+    },
+    "speed": {
+      "label": "Kelajuan bacaan",
+      "hint": "Julat 0.80x – 1.30x"
+    },
+    "silence": {
+      "label": "Jeda antara ayat",
+      "hint": "Julat 0.10s – 1.00s"
+    },
+    "model": {
+      "status": "Status model",
+      "checking": "Memeriksa…",
+      "ready": "Sedia",
+      "missing": "Tidak dipasang",
+      "missingHint": "Fail model hilang (kira-kira 300 MB). Pilih cara untuk mendapatkannya:",
+      "autoDownload": "Muat turun automatik",
+      "mirrorDownload": "Muat turun cermin",
+      "manualPlace": "Letakkan fail secara manual",
+      "perFileTitle": "Muat turun fail satu-satu (untuk rangkaian tidak stabil)",
+      "expand": "Kembangkan",
+      "collapse": "Runtuhkan",
+      "perFileHint": "Klik setiap pautan untuk memuat turun, lalu letakkan dalam folder model:",
+      "perFileTip": "Petua: pengurus muat turun (IDM, dll.) boleh mengambilnya secara berkelompok. Susunan:",
+      "openDir": "Buka folder model",
+      "downloading": "Memuat turun model…",
+      "downloadingHint": "Pengesanan automatik selepas siap. Jangan tutup tetingkap. Segarkan jika tergantung."
+    },
+    "errors": {
+      "saveFailed": "Gagal menyimpan. Sila cuba lagi.",
+      "downloadFailed": "Muat turun automatik gagal. Cuba cermin atau letak manual.",
+      "mirrorDownloadFailed": "Muat turun cermin gagal. Letakkan fail secara manual."
+    },
+    "startButton": {
+      "start": "Mula guna",
+      "needsModel": "Pasang model dahulu"
+    }
+  },
+  "main": {
+    "openSettings": "Tetapan",
+    "openModelDir": "Folder model",
+    "params": {
+      "title": "Parameter sintesis"
+    },
+    "stats": {
+      "quality": "Kualiti",
+      "speed": "Kelajuan",
+      "silence": "Jeda"
+    },
+    "status": {
+      "title": "Status",
+      "ready": "Sedia",
+      "downloading": "Memuat turun",
+      "missing": "Model tiada",
+      "downloadingProgress": "Muat turun model: {{progress}}%",
+      "engineError": "Gagal memuatkan enjin: {{error}}",
+      "missingHint": "Fail model Supertonic tidak ditemui. Pilih:",
+      "autoDownload": "Muat turun model automatik",
+      "manualPlace": "Letak fail manual",
+      "readyHint": "Pilih sebarang teks dan tekan pintasan global untuk membacanya.",
+      "testRead": "Uji baca papan keratan",
+      "recentRead": "Teks terkini:"
+    },
+    "errors": {
+      "readFailed": "Bacaan gagal",
+      "downloadFailed": "Muat turun gagal"
+    }
+  },
+  "settings": {
+    "title": "Tetapan",
+    "voice": {
+      "sectionTitle": "Suara",
+      "ttsLanguageLabel": "Bahasa TTS",
+      "voiceStyleLabel": "Gaya suara",
+      "testTextLabel": "Teks ujian:",
+      "testButton": "Uji bacaan",
+      "testing": "Memainkan…"
+    },
+    "params": {
+      "sectionTitle": "Parameter sintesis",
+      "qualityLabel": "Kualiti",
+      "qualityUnit": "langkah",
+      "qualityHint": "Julat: 2 – 16 (lalai 8; lebih banyak = lebih baik tetapi lebih perlahan)",
+      "speedLabel": "Kelajuan",
+      "speedHint": "Julat: 0.80x – 1.30x (lalai 1.05x)",
+      "silenceLabel": "Jeda antara ayat",
+      "silenceDescription": "Panjang senyap antara perenggan (parameter tidak rasmi, aktif hanya bila teks panjang dipecah)",
+      "silenceHint": "Julat: 0.3s – 1.0s (lalai 0.3s)"
+    },
+    "shortcuts": {
+      "sectionTitle": "Pintasan global",
+      "readLabel": "Pintasan baca",
+      "pauseLabel": "Pintasan jeda",
+      "pausePlaceholder": "Biarkan kosong untuk lumpuhkan",
+      "hint": "Format: Ctrl+` / Alt+F1 / Shift+F5 / Ctrl+Shift+A / Cmd+Space. Kosong = dilumpuhkan."
+    },
+    "buttons": {
+      "save": "Simpan tetapan",
+      "saving": "Menyimpan…"
+    },
+    "toast": {
+      "saved": "Tetapan disimpan",
+      "saveFailed": "Gagal menyimpan tetapan"
+    },
+    "errors": {
+      "loadFailed": "Gagal memuat tetapan",
+      "saveFailed": "Gagal menyimpan",
+      "testFailed": "Ujian bacaan gagal"
+    },
+    "voiceStyles": {
+      "appliesTo": "Sesuai untuk:",
+      "male": "Lelaki",
+      "female": "Perempuan",
+      "M1": { "name": "Cergas", "description": "Suara lelaki ceria dan yakin, timbre piawai dan jelas", "useCases": "Video promo, naratif ringan, voiceover umum" },
+      "M2": { "name": "Dalam", "description": "Suara lelaki rendah dan penuh, tenang dan berwibawa", "useCases": "Kandungan korporat, pengumuman rasmi, dokumentari" },
+      "M3": { "name": "Berwibawa", "description": "Suara lelaki halus dan yakin, sesuai untuk pembentangan", "useCases": "Pembentangan perniagaan, ucapan eksekutif" },
+      "M4": { "name": "Mesra", "description": "Suara lelaki lembut dan neutral, ramah dan muda", "useCases": "Pendidikan, penerangan mesra, onboarding" },
+      "M5": { "name": "Hangat", "description": "Suara lelaki hangat dan perlahan, pencerita semula jadi", "useCases": "Buku audio, kandungan santai, cerita sebelum tidur" },
+      "F1": { "name": "Tenang", "description": "Suara perempuan tenang dan stabil", "useCases": "Berita, panduan meditasi" },
+      "F2": { "name": "Cerah", "description": "Suara perempuan cerah dan ceria", "useCases": "Kandungan kanak-kanak, iklan bertenaga" },
+      "F3": { "name": "Profesional", "description": "Suara perempuan gaya juruhebah", "useCases": "Berita, pengumuman lapangan terbang/stesen" },
+      "F4": { "name": "Yakin", "description": "Suara perempuan yakin dan tegas", "useCases": "Pembentangan, kepimpinan" },
+      "F5": { "name": "Lembut", "description": "Suara perempuan lembut dan halus", "useCases": "Buku audio, kandungan emosi" }
+    },
+    "modelFiles": {
+      "duration_predictor": "duration_predictor.onnx (ramalan tempoh)",
+      "text_encoder": "text_encoder.onnx (pengekod teks)",
+      "vector_estimator": "vector_estimator.onnx (penganggar vektor)",
+      "vocoder": "vocoder.onnx (vocoder, terbesar)",
+      "unicode_indexer": "unicode_indexer.json",
+      "tts_config": "tts.json (konfigurasi)",
+      "M1": "M1.json (lelaki 1)",
+      "M2": "M2.json (lelaki 2)",
+      "M3": "M3.json (lelaki 3)",
+      "M4": "M4.json (lelaki 4)",
+      "M5": "M5.json (lelaki 5)",
+      "F1": "F1.json (perempuan 1)",
+      "F2": "F2.json (perempuan 2)",
+      "F3": "F3.json (perempuan 3)",
+      "F4": "F4.json (perempuan 4)",
+      "F5": "F5.json (perempuan 5)"
+    }
+  }
+}

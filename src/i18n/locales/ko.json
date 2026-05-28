@@ -1,0 +1,162 @@
+{
+  "languageName": "한국어",
+  "common": {
+    "save": "저장",
+    "saving": "저장 중…",
+    "back": "돌아가기",
+    "retry": "다시 시도"
+  },
+  "app": {
+    "title": "supertonic-reader"
+  },
+  "languageSwitcher": {
+    "label": "언어"
+  },
+  "setup": {
+    "title": "초기 설정",
+    "quality": {
+      "label": "음성 품질",
+      "hint": "범위 2 – 16 (기본 8). 값이 높을수록 품질이 좋아지지만 합성 속도가 느려집니다"
+    },
+    "speed": {
+      "label": "읽기 속도",
+      "hint": "범위 0.80x – 1.30x"
+    },
+    "silence": {
+      "label": "문장 사이 정적",
+      "hint": "범위 0.10s – 1.00s"
+    },
+    "model": {
+      "status": "모델 상태",
+      "checking": "확인 중…",
+      "ready": "준비됨",
+      "missing": "설치되지 않음",
+      "missingHint": "모델 파일을 찾을 수 없습니다(약 300MB). 가져오기 방식을 선택하세요:",
+      "autoDownload": "자동 다운로드",
+      "mirrorDownload": "미러 다운로드",
+      "manualPlace": "수동으로 배치",
+      "perFileTitle": "파일별 다운로드 (네트워크가 불안정할 때 권장)",
+      "expand": "펼치기",
+      "collapse": "접기",
+      "perFileHint": "아래 링크를 개별 다운로드한 뒤 모델 디렉토리에 배치하세요:",
+      "perFileTip": "팁: IDM 등 다운로드 매니저로 일괄 다운로드 가능. 아래 구조로 배치하세요:",
+      "openDir": "모델 디렉토리 열기",
+      "downloading": "모델 다운로드 중…",
+      "downloadingHint": "완료되면 자동 검출됩니다. 창을 닫지 마세요. 진행이 멈추면 다시 확인하세요."
+    },
+    "errors": {
+      "saveFailed": "저장 실패. 다시 시도해 주세요.",
+      "downloadFailed": "자동 다운로드 실패. 미러 또는 수동 배치를 시도하세요.",
+      "mirrorDownloadFailed": "미러 다운로드 실패. 수동으로 배치해 주세요."
+    },
+    "startButton": {
+      "start": "사용 시작",
+      "needsModel": "먼저 모델을 설치하세요"
+    }
+  },
+  "main": {
+    "openSettings": "설정",
+    "openModelDir": "모델 폴더",
+    "params": {
+      "title": "합성 매개변수"
+    },
+    "stats": {
+      "quality": "품질",
+      "speed": "속도",
+      "silence": "정적"
+    },
+    "status": {
+      "title": "상태",
+      "ready": "준비됨",
+      "downloading": "다운로드 중",
+      "missing": "모델 없음",
+      "downloadingProgress": "모델 다운로드: {{progress}}%",
+      "engineError": "엔진 로드 실패: {{error}}",
+      "missingHint": "Supertonic 모델 파일을 찾을 수 없습니다. 선택하세요:",
+      "autoDownload": "모델 자동 다운로드",
+      "manualPlace": "수동으로 배치",
+      "readyHint": "원하는 텍스트를 선택하고 전역 단축키를 누르면 읽어줍니다.",
+      "testRead": "클립보드 읽기 테스트",
+      "recentRead": "최근 읽음:"
+    },
+    "errors": {
+      "readFailed": "읽기 실패",
+      "downloadFailed": "다운로드 실패"
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "voice": {
+      "sectionTitle": "음성",
+      "ttsLanguageLabel": "TTS 언어",
+      "voiceStyleLabel": "음성 스타일",
+      "testTextLabel": "테스트 텍스트:",
+      "testButton": "테스트 읽기",
+      "testing": "재생 중…"
+    },
+    "params": {
+      "sectionTitle": "합성 매개변수",
+      "qualityLabel": "품질",
+      "qualityUnit": "단계",
+      "qualityHint": "범위: 2 – 16 단계 (기본 8, 단계가 높을수록 고품질·저속)",
+      "speedLabel": "속도",
+      "speedHint": "범위: 0.80x – 1.30x (기본 1.05x)",
+      "silenceLabel": "문장 사이 정적",
+      "silenceDescription": "단락 사이 정적 길이 (비공식 매개변수, 긴 텍스트 분할 시에만 작동)",
+      "silenceHint": "범위: 0.3s – 1.0s (기본 0.3s)"
+    },
+    "shortcuts": {
+      "sectionTitle": "전역 단축키",
+      "readLabel": "읽기 단축키",
+      "pauseLabel": "일시정지 단축키",
+      "pausePlaceholder": "비워두면 비활성화",
+      "hint": "형식: Ctrl+` / Alt+F1 / Shift+F5 / Ctrl+Shift+A / Cmd+Space. 비워두면 비활성화."
+    },
+    "buttons": {
+      "save": "설정 저장",
+      "saving": "저장 중…"
+    },
+    "toast": {
+      "saved": "설정이 저장되었습니다",
+      "saveFailed": "설정 저장 실패"
+    },
+    "errors": {
+      "loadFailed": "설정 로드 실패",
+      "saveFailed": "저장 실패",
+      "testFailed": "테스트 읽기 실패"
+    },
+    "voiceStyles": {
+      "appliesTo": "용도:",
+      "male": "남성",
+      "female": "여성",
+      "M1": { "name": "활기", "description": "밝고 자신감 있는 남성 음성, 표준적이고 명확한 음색", "useCases": "홍보 영상, 가벼운 해설, 범용 내레이션" },
+      "M2": { "name": "깊이", "description": "낮고 풍부한 남성 음성, 차분하고 진중한 분위기", "useCases": "기업 콘텐츠, 공식 안내, 다큐멘터리" },
+      "M3": { "name": "권위", "description": "세련되고 신뢰감 있는 남성 음성, 발표에 적합", "useCases": "비즈니스 프레젠테이션, 임원 발언, 투자자 브리핑" },
+      "M4": { "name": "친근", "description": "부드럽고 중성적인 남성 음성, 친근한 느낌", "useCases": "교육 콘텐츠, 친근한 설명, 청년층 내레이션" },
+      "M5": { "name": "따뜻", "description": "따뜻하고 차분한 남성 음성, 이야기꾼에 적합", "useCases": "오디오북, 휴식 콘텐츠, 잠자리 이야기" },
+      "F1": { "name": "차분", "description": "차분하고 안정적인 여성 음성", "useCases": "뉴스, 명상 가이드" },
+      "F2": { "name": "밝음", "description": "밝고 명랑한 여성 음성", "useCases": "어린이 콘텐츠, 활기찬 광고" },
+      "F3": { "name": "전문", "description": "세련된 아나운서 스타일 여성 음성", "useCases": "뉴스, 공항·역 안내" },
+      "F4": { "name": "자신감", "description": "자신감 있고 단호한 여성 음성", "useCases": "비즈니스 프레젠테이션, 리더십 콘텐츠" },
+      "F5": { "name": "다정", "description": "다정하고 섬세한 여성 음성", "useCases": "오디오북, 감성 콘텐츠" }
+    },
+    "modelFiles": {
+      "duration_predictor": "duration_predictor.onnx (지속 예측)",
+      "text_encoder": "text_encoder.onnx (텍스트 인코더)",
+      "vector_estimator": "vector_estimator.onnx (벡터 추정)",
+      "vocoder": "vocoder.onnx (보코더, 최대)",
+      "unicode_indexer": "unicode_indexer.json",
+      "tts_config": "tts.json (설정)",
+      "M1": "M1.json (남성 1)",
+      "M2": "M2.json (남성 2)",
+      "M3": "M3.json (남성 3)",
+      "M4": "M4.json (남성 4)",
+      "M5": "M5.json (남성 5)",
+      "F1": "F1.json (여성 1)",
+      "F2": "F2.json (여성 2)",
+      "F3": "F3.json (여성 3)",
+      "F4": "F4.json (여성 4)",
+      "F5": "F5.json (여성 5)"
+    }
+  }
+}

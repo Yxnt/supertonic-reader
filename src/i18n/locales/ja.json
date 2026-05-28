@@ -1,0 +1,162 @@
+{
+  "languageName": "日本語",
+  "common": {
+    "save": "保存",
+    "saving": "保存中…",
+    "back": "戻る",
+    "retry": "再試行"
+  },
+  "app": {
+    "title": "supertonic-reader"
+  },
+  "languageSwitcher": {
+    "label": "言語"
+  },
+  "setup": {
+    "title": "初期設定",
+    "quality": {
+      "label": "音声品質",
+      "hint": "範囲 2 – 16 (既定 8)。高いほど高品質ですが、合成速度は遅くなります"
+    },
+    "speed": {
+      "label": "読み上げ速度",
+      "hint": "範囲 0.80x – 1.30x"
+    },
+    "silence": {
+      "label": "文間の無音",
+      "hint": "範囲 0.10s – 1.00s"
+    },
+    "model": {
+      "status": "モデル状態",
+      "checking": "確認中…",
+      "ready": "準備完了",
+      "missing": "未インストール",
+      "missingHint": "モデルファイルが見つかりません(約 300MB)。取得方法を選択してください:",
+      "autoDownload": "自動ダウンロード",
+      "mirrorDownload": "ミラーからダウンロード",
+      "manualPlace": "手動で配置",
+      "perFileTitle": "ファイル単位でダウンロード (ネットワークが不安定な場合)",
+      "expand": "展開",
+      "collapse": "折りたたむ",
+      "perFileHint": "下記リンクを個別にダウンロードし、モデルディレクトリへ配置してください:",
+      "perFileTip": "ヒント: IDM などのダウンローダで一括取得できます。下記構造で配置してください:",
+      "openDir": "モデルディレクトリを開く",
+      "downloading": "モデルをダウンロード中…",
+      "downloadingHint": "完了すると自動検出されます。ウィンドウを閉じないでください。進捗が止まったら再検出してください。"
+    },
+    "errors": {
+      "saveFailed": "保存に失敗しました。もう一度お試しください。",
+      "downloadFailed": "自動ダウンロードに失敗しました。ミラーまたは手動配置をお試しください。",
+      "mirrorDownloadFailed": "ミラーからのダウンロードに失敗しました。手動配置をお試しください。"
+    },
+    "startButton": {
+      "start": "使い始める",
+      "needsModel": "先にモデルをインストールしてください"
+    }
+  },
+  "main": {
+    "openSettings": "設定",
+    "openModelDir": "モデルフォルダ",
+    "params": {
+      "title": "合成パラメータ"
+    },
+    "stats": {
+      "quality": "品質",
+      "speed": "速度",
+      "silence": "無音"
+    },
+    "status": {
+      "title": "状態",
+      "ready": "準備完了",
+      "downloading": "ダウンロード中",
+      "missing": "モデル未配置",
+      "downloadingProgress": "モデルダウンロード: {{progress}}%",
+      "engineError": "エンジン読み込み失敗: {{error}}",
+      "missingHint": "Supertonic モデルファイルが見つかりません。選択してください:",
+      "autoDownload": "モデルを自動ダウンロード",
+      "manualPlace": "手動で配置",
+      "readyHint": "任意のテキストを選択してグローバルショートカットを押すと読み上げます。",
+      "testRead": "クリップボードを試聴",
+      "recentRead": "直近の読み上げ:"
+    },
+    "errors": {
+      "readFailed": "読み上げ失敗",
+      "downloadFailed": "ダウンロード失敗"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "voice": {
+      "sectionTitle": "音声",
+      "ttsLanguageLabel": "TTS 言語",
+      "voiceStyleLabel": "音声スタイル",
+      "testTextLabel": "テストテキスト:",
+      "testButton": "試聴",
+      "testing": "再生中…"
+    },
+    "params": {
+      "sectionTitle": "合成パラメータ",
+      "qualityLabel": "品質",
+      "qualityUnit": "ステップ",
+      "qualityHint": "範囲: 2 – 16 ステップ (既定 8。多いほど高品質・低速)",
+      "speedLabel": "速度",
+      "speedHint": "範囲: 0.80x – 1.30x (既定 1.05x)",
+      "silenceLabel": "文間の無音",
+      "silenceDescription": "段落間の無音長 (非公式パラメータ、長文分割時のみ有効)",
+      "silenceHint": "範囲: 0.3s – 1.0s (既定 0.3s)"
+    },
+    "shortcuts": {
+      "sectionTitle": "グローバルショートカット",
+      "readLabel": "読み上げショートカット",
+      "pauseLabel": "一時停止ショートカット",
+      "pausePlaceholder": "空欄で無効",
+      "hint": "形式: Ctrl+` / Alt+F1 / Shift+F5 / Ctrl+Shift+A / Cmd+Space など。空欄で無効。"
+    },
+    "buttons": {
+      "save": "設定を保存",
+      "saving": "保存中…"
+    },
+    "toast": {
+      "saved": "設定を保存しました",
+      "saveFailed": "設定の保存に失敗しました"
+    },
+    "errors": {
+      "loadFailed": "設定の読み込みに失敗",
+      "saveFailed": "保存失敗",
+      "testFailed": "試聴に失敗"
+    },
+    "voiceStyles": {
+      "appliesTo": "用途:",
+      "male": "男性",
+      "female": "女性",
+      "M1": { "name": "活発", "description": "明るく自信のある男性声。標準的でクリアな音色", "useCases": "プロモ動画、軽快なナレーション、汎用ナレーション" },
+      "M2": { "name": "深み", "description": "低く豊かな男性声。落ち着き、冷静、威厳", "useCases": "企業コンテンツ、公式アナウンス、ドキュメンタリー" },
+      "M3": { "name": "威厳", "description": "洗練された男性声。自信があり、プレゼン向き", "useCases": "ビジネスプレゼン、経営者発言、投資家向け" },
+      "M4": { "name": "親しみ", "description": "柔らかく中性的な男性声。若々しく親しみやすい", "useCases": "教育、フレンドリーな解説、若者向け" },
+      "M5": { "name": "温かみ", "description": "温かく落ち着いた男性声。語り手向き", "useCases": "オーディオブック、リラックスコンテンツ、寝物語" },
+      "F1": { "name": "穏やか", "description": "落ち着いた女性声", "useCases": "ニュース、瞑想ガイド" },
+      "F2": { "name": "明朗", "description": "明るく快活な女性声", "useCases": "子ども向け、活気ある広告" },
+      "F3": { "name": "プロ", "description": "洗練された放送員風女性声", "useCases": "ニュース、駅・空港アナウンス" },
+      "F4": { "name": "自信", "description": "自信に満ちた女性声", "useCases": "ビジネスプレゼン、リーダーシップ" },
+      "F5": { "name": "優しさ", "description": "優しく繊細な女性声", "useCases": "オーディオブック、感情的なコンテンツ" }
+    },
+    "modelFiles": {
+      "duration_predictor": "duration_predictor.onnx (継続長予測)",
+      "text_encoder": "text_encoder.onnx (テキストエンコーダ)",
+      "vector_estimator": "vector_estimator.onnx (ベクトル推定)",
+      "vocoder": "vocoder.onnx (ボコーダ、最大)",
+      "unicode_indexer": "unicode_indexer.json",
+      "tts_config": "tts.json (設定)",
+      "M1": "M1.json (男性 1)",
+      "M2": "M2.json (男性 2)",
+      "M3": "M3.json (男性 3)",
+      "M4": "M4.json (男性 4)",
+      "M5": "M5.json (男性 5)",
+      "F1": "F1.json (女性 1)",
+      "F2": "F2.json (女性 2)",
+      "F3": "F3.json (女性 3)",
+      "F4": "F4.json (女性 4)",
+      "F5": "F5.json (女性 5)"
+    }
+  }
+}

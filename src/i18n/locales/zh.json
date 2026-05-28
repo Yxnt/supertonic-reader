@@ -1,0 +1,162 @@
+{
+  "languageName": "简体中文",
+  "common": {
+    "save": "保存",
+    "saving": "保存中...",
+    "back": "返回",
+    "retry": "重试"
+  },
+  "app": {
+    "title": "supertonic-reader"
+  },
+  "languageSwitcher": {
+    "label": "界面语言"
+  },
+  "setup": {
+    "title": "首次设置",
+    "quality": {
+      "label": "语音质量",
+      "hint": "范围 2 ~ 16（官方默认 8）。数值越高质量越好，生成速度越慢"
+    },
+    "speed": {
+      "label": "朗读速度",
+      "hint": "范围 0.80x ~ 1.30x"
+    },
+    "silence": {
+      "label": "句间停顿",
+      "hint": "范围 0.10s ~ 1.00s"
+    },
+    "model": {
+      "status": "模型状态",
+      "checking": "检测中...",
+      "ready": "已就绪",
+      "missing": "未安装",
+      "missingHint": "检测到模型文件缺失（共约 300MB）。请选择获取方式：",
+      "autoDownload": "自动下载",
+      "mirrorDownload": "备用下载",
+      "manualPlace": "手动放置模型",
+      "perFileTitle": "逐个文件下载（网络不佳时推荐）",
+      "expand": "展开",
+      "collapse": "收起",
+      "perFileHint": "点击下方链接逐个下载，全部下载完成后放入模型目录即可：",
+      "perFileTip": "提示：可以用迅雷/IDM 等工具批量下载，下载后按下方结构放入目录：",
+      "openDir": "打开模型目录",
+      "downloading": "正在下载模型...",
+      "downloadingHint": "下载完成后会自动检测，请勿关闭窗口。如长时间无进度可刷新检测。"
+    },
+    "errors": {
+      "saveFailed": "保存失败，请重试",
+      "downloadFailed": "自动下载失败，请尝试备用下载或手动放置",
+      "mirrorDownloadFailed": "备用下载失败，请尝试手动放置模型"
+    },
+    "startButton": {
+      "start": "开始使用",
+      "needsModel": "请先安装模型"
+    }
+  },
+  "main": {
+    "openSettings": "设置",
+    "openModelDir": "模型目录",
+    "params": {
+      "title": "朗读参数"
+    },
+    "stats": {
+      "quality": "质量",
+      "speed": "速度",
+      "silence": "停顿"
+    },
+    "status": {
+      "title": "状态",
+      "ready": "就绪",
+      "downloading": "下载中",
+      "missing": "模型缺失",
+      "downloadingProgress": "模型下载进度: {{progress}}%",
+      "engineError": "引擎加载失败: {{error}}",
+      "missingHint": "未检测到 Supertonic 模型文件。请选择：",
+      "autoDownload": "自动下载模型",
+      "manualPlace": "手动放置模型",
+      "readyHint": "选中任意文字，按全局快捷键即可朗读。",
+      "testRead": "测试朗读剪贴板内容",
+      "recentRead": "最近朗读:"
+    },
+    "errors": {
+      "readFailed": "朗读失败",
+      "downloadFailed": "下载失败"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "voice": {
+      "sectionTitle": "语音",
+      "ttsLanguageLabel": "朗读语言",
+      "voiceStyleLabel": "语音风格",
+      "testTextLabel": "测试文本:",
+      "testButton": "测试朗读",
+      "testing": "播放中..."
+    },
+    "params": {
+      "sectionTitle": "朗读参数",
+      "qualityLabel": "质量",
+      "qualityUnit": "步",
+      "qualityHint": "范围: 2 ~ 16 步（官方默认 8 步，步数越高音质越好、速度越慢）",
+      "speedLabel": "速度",
+      "speedHint": "范围: 0.80x ~ 1.30x（官方默认 1.05x）",
+      "silenceLabel": "句间停顿",
+      "silenceDescription": "段间静音长度（非官方参数，仅长文本分段时生效）",
+      "silenceHint": "范围: 0.3s ~ 1.0s（官方默认 0.3s）"
+    },
+    "shortcuts": {
+      "sectionTitle": "全局快捷键",
+      "readLabel": "朗读快捷键",
+      "pauseLabel": "暂停播放快捷键",
+      "pausePlaceholder": "留空表示不启用",
+      "hint": "格式: Ctrl+` / Alt+F1 / Shift+F5 / Ctrl+Shift+A / Cmd+Space 等，留空表示不启用"
+    },
+    "buttons": {
+      "save": "保存设置",
+      "saving": "保存中..."
+    },
+    "toast": {
+      "saved": "设置已保存",
+      "saveFailed": "保存设置失败"
+    },
+    "errors": {
+      "loadFailed": "获取设置失败",
+      "saveFailed": "保存失败",
+      "testFailed": "测试朗读失败"
+    },
+    "voiceStyles": {
+      "appliesTo": "适用:",
+      "male": "男",
+      "female": "女",
+      "M1": { "name": "活泼", "description": "充满活力的 upbeat 男声，自信阳光，音色标准清晰", "useCases": "宣传视频、轻快解说、通用旁白、休闲公告" },
+      "M2": { "name": "深沉", "description": "低沉浑厚的男声，沉稳、冷静、严肃，气场稳重", "useCases": "企业内容、严肃公告、纪录片、正式指引" },
+      "M3": { "name": "权威", "description": "精炼干练的男声，自信可靠，具有很强的演讲质感", "useCases": "商业演示、领导发言、投资者简报、高信任度旁白" },
+      "M4": { "name": "亲和", "description": "柔和中性音调的男声，温和亲切，带有年轻友好的气质", "useCases": "教育内容、友好解说、入职指南、青年向旁白" },
+      "M5": { "name": "温暖", "description": "温暖低语的男声，平静舒缓，具有自然的讲故事能力", "useCases": "有声书、放松内容、睡前故事、情感反思旁白" },
+      "F1": { "name": "平静", "description": "平静稳定的女性声音，沉稳内敛", "useCases": "新闻播报、平静解说、冥想引导" },
+      "F2": { "name": "明亮", "description": "明亮欢快的女性声音，阳光积极", "useCases": "儿童内容、活力广告、愉快解说" },
+      "F3": { "name": "专业", "description": "专业稳重的女性声音，播报员风格", "useCases": "新闻播报、机场/车站广播、正式公告" },
+      "F4": { "name": "自信", "description": "自信有力的女性声音，气场强大", "useCases": "商业演示、领导力内容、激励演讲" },
+      "F5": { "name": "温柔", "description": "温柔细腻的女性声音，亲切柔和", "useCases": "有声书、情感内容、温柔旁白" }
+    },
+    "modelFiles": {
+      "duration_predictor": "duration_predictor.onnx (时长预测)",
+      "text_encoder": "text_encoder.onnx (文本编码)",
+      "vector_estimator": "vector_estimator.onnx (向量估计)",
+      "vocoder": "vocoder.onnx (声码器，最大)",
+      "unicode_indexer": "unicode_indexer.json",
+      "tts_config": "tts.json (配置)",
+      "M1": "M1.json (男声1)",
+      "M2": "M2.json (男声2)",
+      "M3": "M3.json (男声3)",
+      "M4": "M4.json (男声4)",
+      "M5": "M5.json (男声5)",
+      "F1": "F1.json (女声1)",
+      "F2": "F2.json (女声2)",
+      "F3": "F3.json (女声3)",
+      "F4": "F4.json (女声4)",
+      "F5": "F5.json (女声5)"
+    }
+  }
+}

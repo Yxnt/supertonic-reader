@@ -1,0 +1,162 @@
+{
+  "languageName": "Tiếng Việt",
+  "common": {
+    "save": "Lưu",
+    "saving": "Đang lưu…",
+    "back": "Quay lại",
+    "retry": "Thử lại"
+  },
+  "app": {
+    "title": "supertonic-reader"
+  },
+  "languageSwitcher": {
+    "label": "Ngôn ngữ"
+  },
+  "setup": {
+    "title": "Thiết lập lần đầu",
+    "quality": {
+      "label": "Chất lượng giọng",
+      "hint": "Phạm vi 2 – 16 (mặc định 8). Giá trị càng cao chất lượng càng tốt nhưng tổng hợp chậm hơn"
+    },
+    "speed": {
+      "label": "Tốc độ đọc",
+      "hint": "Phạm vi 0,80x – 1,30x"
+    },
+    "silence": {
+      "label": "Ngắt giữa câu",
+      "hint": "Phạm vi 0,10s – 1,00s"
+    },
+    "model": {
+      "status": "Trạng thái mô hình",
+      "checking": "Đang kiểm tra…",
+      "ready": "Sẵn sàng",
+      "missing": "Chưa cài",
+      "missingHint": "Thiếu tệp mô hình (~300 MB). Chọn cách lấy:",
+      "autoDownload": "Tải tự động",
+      "mirrorDownload": "Tải qua mirror",
+      "manualPlace": "Đặt tệp thủ công",
+      "perFileTitle": "Tải từng tệp (khi mạng không ổn định)",
+      "expand": "Mở rộng",
+      "collapse": "Thu gọn",
+      "perFileHint": "Bấm từng liên kết để tải, sau đó đặt vào thư mục mô hình:",
+      "perFileTip": "Mẹo: dùng trình quản lý tải (IDM, v.v.) để tải hàng loạt. Cấu trúc:",
+      "openDir": "Mở thư mục mô hình",
+      "downloading": "Đang tải mô hình…",
+      "downloadingHint": "Sẽ tự động phát hiện khi xong. Đừng đóng cửa sổ. Nếu treo, làm mới."
+    },
+    "errors": {
+      "saveFailed": "Lưu thất bại. Vui lòng thử lại.",
+      "downloadFailed": "Tải tự động thất bại. Thử mirror hoặc đặt thủ công.",
+      "mirrorDownloadFailed": "Mirror thất bại. Hãy đặt tệp thủ công."
+    },
+    "startButton": {
+      "start": "Bắt đầu sử dụng",
+      "needsModel": "Hãy cài mô hình trước"
+    }
+  },
+  "main": {
+    "openSettings": "Cài đặt",
+    "openModelDir": "Thư mục mô hình",
+    "params": {
+      "title": "Tham số tổng hợp"
+    },
+    "stats": {
+      "quality": "Chất lượng",
+      "speed": "Tốc độ",
+      "silence": "Ngắt"
+    },
+    "status": {
+      "title": "Trạng thái",
+      "ready": "Sẵn sàng",
+      "downloading": "Đang tải",
+      "missing": "Thiếu mô hình",
+      "downloadingProgress": "Tải mô hình: {{progress}}%",
+      "engineError": "Tải engine thất bại: {{error}}",
+      "missingHint": "Không tìm thấy tệp mô hình Supertonic. Chọn:",
+      "autoDownload": "Tải mô hình tự động",
+      "manualPlace": "Đặt tệp thủ công",
+      "readyHint": "Chọn bất kỳ văn bản nào và nhấn phím tắt toàn cục để đọc.",
+      "testRead": "Đọc thử bộ nhớ tạm",
+      "recentRead": "Văn bản gần đây:"
+    },
+    "errors": {
+      "readFailed": "Đọc thất bại",
+      "downloadFailed": "Tải thất bại"
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "voice": {
+      "sectionTitle": "Giọng",
+      "ttsLanguageLabel": "Ngôn ngữ TTS",
+      "voiceStyleLabel": "Phong cách giọng",
+      "testTextLabel": "Văn bản kiểm tra:",
+      "testButton": "Đọc thử",
+      "testing": "Đang phát…"
+    },
+    "params": {
+      "sectionTitle": "Tham số tổng hợp",
+      "qualityLabel": "Chất lượng",
+      "qualityUnit": "bước",
+      "qualityHint": "Phạm vi: 2 – 16 (mặc định 8; nhiều bước = chất lượng tốt hơn, chậm hơn)",
+      "speedLabel": "Tốc độ",
+      "speedHint": "Phạm vi: 0,80x – 1,30x (mặc định 1,05x)",
+      "silenceLabel": "Ngắt giữa câu",
+      "silenceDescription": "Độ dài im lặng giữa các đoạn (tham số không chính thức, chỉ kích hoạt khi tách văn bản dài)",
+      "silenceHint": "Phạm vi: 0,3s – 1,0s (mặc định 0,3s)"
+    },
+    "shortcuts": {
+      "sectionTitle": "Phím tắt toàn cục",
+      "readLabel": "Phím tắt đọc",
+      "pauseLabel": "Phím tắt tạm dừng",
+      "pausePlaceholder": "Bỏ trống để tắt",
+      "hint": "Định dạng: Ctrl+` / Alt+F1 / Shift+F5 / Ctrl+Shift+A / Cmd+Space. Trống = tắt."
+    },
+    "buttons": {
+      "save": "Lưu cài đặt",
+      "saving": "Đang lưu…"
+    },
+    "toast": {
+      "saved": "Đã lưu cài đặt",
+      "saveFailed": "Lưu cài đặt thất bại"
+    },
+    "errors": {
+      "loadFailed": "Không tải được cài đặt",
+      "saveFailed": "Lưu thất bại",
+      "testFailed": "Đọc thử thất bại"
+    },
+    "voiceStyles": {
+      "appliesTo": "Phù hợp với:",
+      "male": "Nam",
+      "female": "Nữ",
+      "M1": { "name": "Hoạt bát", "description": "Giọng nam lạc quan và tự tin, âm sắc chuẩn và rõ", "useCases": "Video quảng bá, thuyết minh nhẹ, voiceover thông dụng" },
+      "M2": { "name": "Trầm", "description": "Giọng nam trầm và đầy đặn, điềm tĩnh và uy nghi", "useCases": "Nội dung doanh nghiệp, thông báo trang trọng, phim tài liệu" },
+      "M3": { "name": "Uy quyền", "description": "Giọng nam mượt và tự tin, hợp thuyết trình", "useCases": "Thuyết trình kinh doanh, phát biểu lãnh đạo" },
+      "M4": { "name": "Thân thiện", "description": "Giọng nam mềm mại, trung tính, trẻ trung", "useCases": "Giáo dục, giải thích thân thiện, onboarding" },
+      "M5": { "name": "Ấm áp", "description": "Giọng nam ấm và thì thầm, kể chuyện tự nhiên", "useCases": "Sách nói, nội dung thư giãn, truyện trước khi ngủ" },
+      "F1": { "name": "Điềm tĩnh", "description": "Giọng nữ điềm tĩnh và ổn định", "useCases": "Tin tức, hướng dẫn thiền" },
+      "F2": { "name": "Tươi sáng", "description": "Giọng nữ tươi sáng và vui vẻ", "useCases": "Nội dung trẻ em, quảng cáo năng động" },
+      "F3": { "name": "Chuyên nghiệp", "description": "Giọng nữ kiểu phát thanh viên", "useCases": "Tin tức, thông báo sân bay/ga" },
+      "F4": { "name": "Tự tin", "description": "Giọng nữ tự tin, mạnh mẽ", "useCases": "Thuyết trình, nội dung lãnh đạo" },
+      "F5": { "name": "Dịu dàng", "description": "Giọng nữ dịu dàng, tinh tế", "useCases": "Sách nói, nội dung cảm xúc" }
+    },
+    "modelFiles": {
+      "duration_predictor": "duration_predictor.onnx (dự đoán thời lượng)",
+      "text_encoder": "text_encoder.onnx (mã hóa văn bản)",
+      "vector_estimator": "vector_estimator.onnx (ước lượng vector)",
+      "vocoder": "vocoder.onnx (vocoder, lớn nhất)",
+      "unicode_indexer": "unicode_indexer.json",
+      "tts_config": "tts.json (cấu hình)",
+      "M1": "M1.json (nam 1)",
+      "M2": "M2.json (nam 2)",
+      "M3": "M3.json (nam 3)",
+      "M4": "M4.json (nam 4)",
+      "M5": "M5.json (nam 5)",
+      "F1": "F1.json (nữ 1)",
+      "F2": "F2.json (nữ 2)",
+      "F3": "F3.json (nữ 3)",
+      "F4": "F4.json (nữ 4)",
+      "F5": "F5.json (nữ 5)"
+    }
+  }
+}

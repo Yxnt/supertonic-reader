@@ -1,0 +1,162 @@
+{
+  "languageName": "English",
+  "common": {
+    "save": "Save",
+    "saving": "Saving...",
+    "back": "Back",
+    "retry": "Retry"
+  },
+  "app": {
+    "title": "supertonic-reader"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "setup": {
+    "title": "First-time setup",
+    "quality": {
+      "label": "Speech quality",
+      "hint": "Range 2 – 16 (official default 8). Higher = better quality, slower synthesis"
+    },
+    "speed": {
+      "label": "Reading speed",
+      "hint": "Range 0.80x – 1.30x"
+    },
+    "silence": {
+      "label": "Pause between sentences",
+      "hint": "Range 0.10s – 1.00s"
+    },
+    "model": {
+      "status": "Model status",
+      "checking": "Checking...",
+      "ready": "Ready",
+      "missing": "Not installed",
+      "missingHint": "Model files missing (~300 MB total). Choose how to fetch them:",
+      "autoDownload": "Auto download",
+      "mirrorDownload": "Mirror download",
+      "manualPlace": "Place files manually",
+      "perFileTitle": "Download files individually (for unstable network)",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "perFileHint": "Click each link to download, then drop the files into the model directory:",
+      "perFileTip": "Tip: a download manager (IDM, etc.) can batch-fetch the links. Place them under:",
+      "openDir": "Open model directory",
+      "downloading": "Downloading model...",
+      "downloadingHint": "Detection runs automatically when finished — keep this window open. If progress stalls, click refresh."
+    },
+    "errors": {
+      "saveFailed": "Save failed. Please try again.",
+      "downloadFailed": "Auto download failed. Try the mirror or place files manually.",
+      "mirrorDownloadFailed": "Mirror download failed. Try placing the files manually."
+    },
+    "startButton": {
+      "start": "Start using",
+      "needsModel": "Install the model first"
+    }
+  },
+  "main": {
+    "openSettings": "Settings",
+    "openModelDir": "Model folder",
+    "params": {
+      "title": "Synthesis parameters"
+    },
+    "stats": {
+      "quality": "Quality",
+      "speed": "Speed",
+      "silence": "Pause"
+    },
+    "status": {
+      "title": "Status",
+      "ready": "Ready",
+      "downloading": "Downloading",
+      "missing": "Model missing",
+      "downloadingProgress": "Model download: {{progress}}%",
+      "engineError": "Engine load failed: {{error}}",
+      "missingHint": "Supertonic model files not detected. Choose:",
+      "autoDownload": "Auto download model",
+      "manualPlace": "Place files manually",
+      "readyHint": "Select any text and press the global shortcut to read it aloud.",
+      "testRead": "Test reading clipboard",
+      "recentRead": "Recent text:"
+    },
+    "errors": {
+      "readFailed": "Reading failed",
+      "downloadFailed": "Download failed"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "voice": {
+      "sectionTitle": "Voice",
+      "ttsLanguageLabel": "TTS language",
+      "voiceStyleLabel": "Voice style",
+      "testTextLabel": "Test text:",
+      "testButton": "Test reading",
+      "testing": "Playing..."
+    },
+    "params": {
+      "sectionTitle": "Synthesis parameters",
+      "qualityLabel": "Quality",
+      "qualityUnit": "steps",
+      "qualityHint": "Range 2 – 16 (official default 8; more steps = better quality, slower)",
+      "speedLabel": "Speed",
+      "speedHint": "Range 0.80x – 1.30x (official default 1.05x)",
+      "silenceLabel": "Pause between sentences",
+      "silenceDescription": "Silence length between paragraphs (unofficial parameter, only effective when long text is chunked)",
+      "silenceHint": "Range 0.3s – 1.0s (official default 0.3s)"
+    },
+    "shortcuts": {
+      "sectionTitle": "Global shortcuts",
+      "readLabel": "Read shortcut",
+      "pauseLabel": "Pause shortcut",
+      "pausePlaceholder": "Leave empty to disable",
+      "hint": "Format: Ctrl+` / Alt+F1 / Shift+F5 / Ctrl+Shift+A / Cmd+Space. Leave pause empty to disable."
+    },
+    "buttons": {
+      "save": "Save settings",
+      "saving": "Saving..."
+    },
+    "toast": {
+      "saved": "Settings saved",
+      "saveFailed": "Failed to save settings"
+    },
+    "errors": {
+      "loadFailed": "Failed to load settings",
+      "saveFailed": "Save failed",
+      "testFailed": "Test reading failed"
+    },
+    "voiceStyles": {
+      "appliesTo": "Best for:",
+      "male": "Male",
+      "female": "Female",
+      "M1": { "name": "Lively", "description": "Upbeat, confident, clear standard timbre", "useCases": "Promo videos, light narration, general voiceover, casual announcements" },
+      "M2": { "name": "Deep", "description": "Low, full-bodied male voice — calm, serious, commanding", "useCases": "Corporate content, formal announcements, documentaries, official guidance" },
+      "M3": { "name": "Authoritative", "description": "Polished, confident, with strong presentation gravitas", "useCases": "Business pitches, executive talks, investor briefings, high-trust narration" },
+      "M4": { "name": "Friendly", "description": "Soft, neutral-pitched, warm and approachable", "useCases": "Education, friendly explainers, onboarding, youth-oriented narration" },
+      "M5": { "name": "Warm", "description": "Warm and hushed — calm, soothing, natural storyteller", "useCases": "Audiobooks, relaxation, bedtime stories, reflective narration" },
+      "F1": { "name": "Calm", "description": "Steady, composed female voice", "useCases": "News, calm explainers, meditation" },
+      "F2": { "name": "Bright", "description": "Bright, cheerful female voice", "useCases": "Kids content, energetic ads, upbeat narration" },
+      "F3": { "name": "Professional", "description": "Polished, broadcaster-style female voice", "useCases": "News, station announcements, formal updates" },
+      "F4": { "name": "Confident", "description": "Confident, commanding female voice", "useCases": "Business pitches, leadership content, motivational talks" },
+      "F5": { "name": "Gentle", "description": "Gentle, delicate, warm female voice", "useCases": "Audiobooks, emotional content, soft narration" }
+    },
+    "modelFiles": {
+      "duration_predictor": "duration_predictor.onnx (duration prediction)",
+      "text_encoder": "text_encoder.onnx (text encoder)",
+      "vector_estimator": "vector_estimator.onnx (vector estimator)",
+      "vocoder": "vocoder.onnx (vocoder, largest)",
+      "unicode_indexer": "unicode_indexer.json",
+      "tts_config": "tts.json (config)",
+      "M1": "M1.json (male 1)",
+      "M2": "M2.json (male 2)",
+      "M3": "M3.json (male 3)",
+      "M4": "M4.json (male 4)",
+      "M5": "M5.json (male 5)",
+      "F1": "F1.json (female 1)",
+      "F2": "F2.json (female 2)",
+      "F3": "F3.json (female 3)",
+      "F4": "F4.json (female 4)",
+      "F5": "F5.json (female 5)"
+    }
+  }
+}

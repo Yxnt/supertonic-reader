@@ -1,0 +1,162 @@
+{
+  "languageName": "Español",
+  "common": {
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "back": "Volver",
+    "retry": "Reintentar"
+  },
+  "app": {
+    "title": "supertonic-reader"
+  },
+  "languageSwitcher": {
+    "label": "Idioma"
+  },
+  "setup": {
+    "title": "Configuración inicial",
+    "quality": {
+      "label": "Calidad de voz",
+      "hint": "Rango 2 – 16 (por defecto 8). Un valor más alto mejora la calidad pero ralentiza la síntesis"
+    },
+    "speed": {
+      "label": "Velocidad de lectura",
+      "hint": "Rango 0,80x – 1,30x"
+    },
+    "silence": {
+      "label": "Pausa entre oraciones",
+      "hint": "Rango 0.10s – 1.00s"
+    },
+    "model": {
+      "status": "Estado del modelo",
+      "checking": "Comprobando…",
+      "ready": "Listo",
+      "missing": "No instalado",
+      "missingHint": "Faltan archivos del modelo (~300 MB). Elige cómo obtenerlos:",
+      "autoDownload": "Descarga automática",
+      "mirrorDownload": "Espejo de descarga",
+      "manualPlace": "Colocar archivos manualmente",
+      "perFileTitle": "Descargar archivos individualmente (recomendado con red inestable)",
+      "expand": "Expandir",
+      "collapse": "Contraer",
+      "perFileHint": "Descarga cada enlace y colócalos en la carpeta del modelo:",
+      "perFileTip": "Sugerencia: un gestor de descargas (IDM, etc.) puede bajarlos en lote. Estructura:",
+      "openDir": "Abrir carpeta del modelo",
+      "downloading": "Descargando modelo…",
+      "downloadingHint": "Se detectará al terminar. Mantén la ventana abierta. Si se detiene, actualiza."
+    },
+    "errors": {
+      "saveFailed": "Error al guardar. Inténtalo de nuevo.",
+      "downloadFailed": "Falló la descarga automática. Prueba el espejo o colócalos manualmente.",
+      "mirrorDownloadFailed": "Falló la descarga desde el espejo. Coloca los archivos manualmente."
+    },
+    "startButton": {
+      "start": "Empezar",
+      "needsModel": "Instala el modelo primero"
+    }
+  },
+  "main": {
+    "openSettings": "Ajustes",
+    "openModelDir": "Carpeta del modelo",
+    "params": {
+      "title": "Parámetros de síntesis"
+    },
+    "stats": {
+      "quality": "Calidad",
+      "speed": "Velocidad",
+      "silence": "Pausa"
+    },
+    "status": {
+      "title": "Estado",
+      "ready": "Listo",
+      "downloading": "Descargando",
+      "missing": "Modelo ausente",
+      "downloadingProgress": "Descarga del modelo: {{progress}}%",
+      "engineError": "Error al cargar motor: {{error}}",
+      "missingHint": "Archivos del modelo Supertonic no detectados. Elige:",
+      "autoDownload": "Descargar modelo automáticamente",
+      "manualPlace": "Colocar manualmente",
+      "readyHint": "Selecciona cualquier texto y pulsa el atajo global para leerlo.",
+      "testRead": "Probar lectura del portapapeles",
+      "recentRead": "Texto reciente:"
+    },
+    "errors": {
+      "readFailed": "Error de lectura",
+      "downloadFailed": "Error de descarga"
+    }
+  },
+  "settings": {
+    "title": "Ajustes",
+    "voice": {
+      "sectionTitle": "Voz",
+      "ttsLanguageLabel": "Idioma del TTS",
+      "voiceStyleLabel": "Estilo de voz",
+      "testTextLabel": "Texto de prueba:",
+      "testButton": "Probar lectura",
+      "testing": "Reproduciendo…"
+    },
+    "params": {
+      "sectionTitle": "Parámetros de síntesis",
+      "qualityLabel": "Calidad",
+      "qualityUnit": "pasos",
+      "qualityHint": "Rango: 2 – 16 (por defecto 8; más pasos = mejor calidad, más lento)",
+      "speedLabel": "Velocidad",
+      "speedHint": "Rango: 0,80x – 1,30x (por defecto 1,05x)",
+      "silenceLabel": "Pausa entre oraciones",
+      "silenceDescription": "Longitud de silencio entre párrafos (parámetro no oficial, solo activo al dividir texto largo)",
+      "silenceHint": "Rango: 0.3s – 1.0s (por defecto 0.3s)"
+    },
+    "shortcuts": {
+      "sectionTitle": "Atajos globales",
+      "readLabel": "Atajo de lectura",
+      "pauseLabel": "Atajo de pausa",
+      "pausePlaceholder": "Déjalo vacío para desactivar",
+      "hint": "Formato: Ctrl+` / Alt+F1 / Shift+F5 / Ctrl+Shift+A / Cmd+Space. Pausa vacía = desactivado."
+    },
+    "buttons": {
+      "save": "Guardar ajustes",
+      "saving": "Guardando…"
+    },
+    "toast": {
+      "saved": "Ajustes guardados",
+      "saveFailed": "Error al guardar los ajustes"
+    },
+    "errors": {
+      "loadFailed": "No se pudieron cargar los ajustes",
+      "saveFailed": "Error al guardar",
+      "testFailed": "Falló la lectura de prueba"
+    },
+    "voiceStyles": {
+      "appliesTo": "Indicado para:",
+      "male": "Hombre",
+      "female": "Mujer",
+      "M1": { "name": "Vivaz", "description": "Voz masculina alegre y segura, timbre estándar y claro", "useCases": "Vídeos promo, narración ligera, voz en off general" },
+      "M2": { "name": "Profunda", "description": "Voz masculina grave y plena, serena y autoritaria", "useCases": "Contenido corporativo, anuncios formales, documentales" },
+      "M3": { "name": "Autoritaria", "description": "Voz masculina pulida y firme, ideal para presentar", "useCases": "Presentaciones, charlas ejecutivas, informes a inversores" },
+      "M4": { "name": "Amistosa", "description": "Voz masculina suave y neutra, cercana y juvenil", "useCases": "Educación, explicaciones amenas, onboarding" },
+      "M5": { "name": "Cálida", "description": "Voz masculina cálida y susurrada, narradora natural", "useCases": "Audiolibros, contenido relajante, historias para dormir" },
+      "F1": { "name": "Serena", "description": "Voz femenina serena y estable", "useCases": "Noticias, guías de meditación" },
+      "F2": { "name": "Brillante", "description": "Voz femenina brillante y alegre", "useCases": "Contenido infantil, anuncios enérgicos" },
+      "F3": { "name": "Profesional", "description": "Voz femenina pulida estilo locutora", "useCases": "Noticias, megafonía de estación y aeropuerto" },
+      "F4": { "name": "Decidida", "description": "Voz femenina segura y firme", "useCases": "Presentaciones, contenido de liderazgo" },
+      "F5": { "name": "Dulce", "description": "Voz femenina dulce y delicada", "useCases": "Audiolibros, contenido emotivo" }
+    },
+    "modelFiles": {
+      "duration_predictor": "duration_predictor.onnx (predicción de duración)",
+      "text_encoder": "text_encoder.onnx (codificador de texto)",
+      "vector_estimator": "vector_estimator.onnx (estimador de vectores)",
+      "vocoder": "vocoder.onnx (vocoder, mayor)",
+      "unicode_indexer": "unicode_indexer.json",
+      "tts_config": "tts.json (configuración)",
+      "M1": "M1.json (hombre 1)",
+      "M2": "M2.json (hombre 2)",
+      "M3": "M3.json (hombre 3)",
+      "M4": "M4.json (hombre 4)",
+      "M5": "M5.json (hombre 5)",
+      "F1": "F1.json (mujer 1)",
+      "F2": "F2.json (mujer 2)",
+      "F3": "F3.json (mujer 3)",
+      "F4": "F4.json (mujer 4)",
+      "F5": "F5.json (mujer 5)"
+    }
+  }
+}
